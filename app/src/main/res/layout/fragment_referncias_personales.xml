@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatosPersonales">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        android:width="1000dp"
+        android:gravity=" "
+        android:text="REFERNCIAS PERSONALES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="3000dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="160dp"
+        android:width="1000dp"
+        android:gravity=" "
+        android:padding="10dp"
+        android:text="* Norma Toscano
+                                          Telf. 0994653004"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="3000dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="220dp"
+        android:width="1000dp"
+        android:gravity=" "
+        android:padding="10dp"
+        android:text="* Zuly Vega
+                                          Telf. 0989922054"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="3000dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="300dp"
+        android:width="1000dp"
+        android:gravity=" "
+        android:padding="10dp"
+        android:text="* Lcda. Guadalupe Zambrano
+                                       Telf. 0939756963"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+</FrameLayout>

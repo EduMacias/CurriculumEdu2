@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatosPersonales">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        android:width="1000dp"
+
+        android:text="ESTUDIOS REALIZADOS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="3000dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="60dp"
+        android:width="1000dp"
+        android:padding="10dp"
+        android:text="Primaria:
+                             Escuela Fiscal
+                           'Ciudad De Zamora CEM D-1'"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="3000dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:padding="10dp"
+        android:width="1000dp"
+
+        android:text="Secundaria:
+                        Escuela Fiscal Experimental
+                                'Agirre Abad'"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="3000dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:padding="10dp"
+        android:width="1000dp"
+
+        android:text="Titulo Obtenido:      Fisico Matematico"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="3000dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="330dp"
+        android:padding="10dp"
+        android:width="1000dp"
+
+        android:text="Estudios Universitarios:
+                                   Universidad de Guayaquil
+                        'Facultad de Ingenieria Industrial'"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+
+</FrameLayout>
