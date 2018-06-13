@@ -6,10 +6,20 @@
     tools:context=".DatosPersonales">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_margin="5dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_school_black_24dp"
+
+        />
+
 
     <TextView
+        android:layout_margin="40dp"
+        android:padding="10dp"
         android:id="@+id/textView2"
-        android:layout_width="300dp"
+        android:layout_width="220dp"
         android:layout_height="100dp"
         android:layout_gravity="end"
         android:width="1000dp"
@@ -22,26 +32,27 @@
         android:layout_width="3000dp"
         android:layout_height="100dp"
         android:layout_gravity="left"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="120dp"
         android:width="1000dp"
         android:padding="10dp"
         android:text="Primaria:
                              Escuela Fiscal
                            'Ciudad De Zamora CEM D-1'"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="3000dp"
         android:layout_height="100dp"
-        android:layout_marginTop="140dp"
-        android:padding="10dp"
+        android:layout_marginTop="180dp"
         android:width="1000dp"
+        android:padding="10dp"
+
 
         android:text="Secundaria:
-                        Escuela Fiscal Experimental
+                          Escuela Fiscal Experimental
                                 'Agirre Abad'"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle" />
 
 
     <TextView
@@ -49,11 +60,12 @@
         android:layout_width="3000dp"
         android:layout_height="100dp"
         android:layout_marginTop="250dp"
-        android:padding="10dp"
         android:width="1000dp"
+        android:padding="10dp"
+
 
         android:text="Titulo Obtenido:      Fisico Matematico"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle" />
 
 
 
@@ -63,13 +75,14 @@
         android:layout_width="3000dp"
         android:layout_height="100dp"
         android:layout_marginTop="330dp"
-        android:padding="10dp"
         android:width="1000dp"
+        android:padding="10dp"
+
 
         android:text="Estudios Universitarios:
                                    Universidad de Guayaquil
                         'Facultad de Ingenieria Industrial'"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Subtitle" />
 
 
 
