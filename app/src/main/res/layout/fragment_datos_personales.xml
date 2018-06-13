@@ -7,7 +7,17 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_margin="20dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_account_box_black_24dp"
+        />
+
+
+
     <TextView
+
         android:id="@+id/textView2"
         android:layout_width="300dp"
         android:layout_height="100dp"
